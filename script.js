@@ -1,13 +1,12 @@
 
 $(document).ready(function(){
 
-	$("#header-wrapper").height($(window).height());
-	$("#photo").width($("#photo").height());
+	
+	
 	$("#down").width($("#down").height());
+
     $(window).resize(function(event) {
     	
-    	$("#header-wrapper").height($(window).height());
-    	$("#photo").width($("#photo").height());
     	$("#down").width($("#down").height());
     });
 
