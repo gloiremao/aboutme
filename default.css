@@ -1,5 +1,3 @@
-
-
 footer {
 	padding-bottom: 50px;
 	background: #333;
@@ -10,28 +8,15 @@ footer {
 	visibility:hidden;
 }
 
-
-
-
 #header-wrapper {
 	width: 100%;
-	height: 50vh;
+	height: 70vh;
 	background-image: url(img/bg.jpg);
 	background-repeat: no-repeat;
+	background-position: bottom;
 	background-size: cover;
 	background-attachment: fixed;
 }
-
-
-
-
-
-#hello-wrapper {
-	margin-top: 200px;
-	width: 100%;
-}
-
-
 
 #photo {
 	position: relative;
@@ -39,7 +24,7 @@ footer {
 }
 
 #hello {
-	
+	margin-top: 20vh;
 	font-size: 1.8em;
 	color: #FFF;
 	letter-spacing: 0.1em;
